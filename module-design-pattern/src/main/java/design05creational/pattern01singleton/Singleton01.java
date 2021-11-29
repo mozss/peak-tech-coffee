@@ -1,7 +1,5 @@
 package design05creational.pattern01singleton;
 
-import javax.swing.*;
-
 /**
  * @deprecated 懒汉模式;线程不安全的
  */
