@@ -2,7 +2,7 @@ package design05creational.pattern01singleton;
 
 
 /**
- * @deprecated 懒汉模式;线程安全的(但不推荐)
+ * 懒汉模式;线程安全的(但不推荐)
  */
 public class Singleton03 {
 	

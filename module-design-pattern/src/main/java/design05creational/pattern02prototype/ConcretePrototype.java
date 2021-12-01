@@ -1,7 +1,10 @@
 package design05creational.pattern02prototype;
 
 /**
- * 原型类，实现Cloneable接口
+ * @deprecated 原型类的子类, 用于构建原型
  */
-public class ConcretePrototype {
+public class ConcretePrototype extends Prototype{
+	public ConcretePrototype(String name) {
+		setName(name);
+	}
 }

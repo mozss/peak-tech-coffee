@@ -1,7 +1,7 @@
 package design05creational.pattern01singleton;
 
 /**
- * @deprecated 懒汉模式;线程不安全的
+ * 懒汉模式;线程不安全的
  */
 public class Singleton04 {
 	

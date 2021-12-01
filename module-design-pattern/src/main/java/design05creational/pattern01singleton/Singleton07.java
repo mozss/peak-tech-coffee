@@ -1,7 +1,7 @@
 package design05creational.pattern01singleton;
 
 /**
- * @deprecated 通过枚举实现线程最安全的方式
+ * 通过枚举实现线程最安全的方式
  */
 public class Singleton07 {
 	
