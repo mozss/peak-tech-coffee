@@ -1,7 +1,7 @@
-package design05creational.pattern02prototype;
+package design05creational.pattern02prototype.example01;
 
 /**
- * @deprecated 原型类, 需要实现Cloneable接口
+ * 原型类, 需要实现Cloneable接口
  */
 public class Prototype implements Cloneable{
 	
