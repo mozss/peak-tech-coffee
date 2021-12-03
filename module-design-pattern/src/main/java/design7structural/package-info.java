@@ -1,1 +1,0 @@
-package design7structural;
