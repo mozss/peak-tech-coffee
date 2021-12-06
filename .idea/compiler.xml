@@ -7,15 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="module-jvm" />
-        <module name="module-sql" />
+        <module name="module-juc" />
         <module name="module-design-pattern" />
+        <module name="module-sql" />
         <module name="module-netty" />
         <module name="netty" />
-        <module name="module-juc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jvm" target="8" />
+      <module name="module-a-design-pattern" target="8" />
+      <module name="module-a-juc" target="8" />
+      <module name="module-a-jvm" target="8" />
+      <module name="module-a-sql" target="8" />
+      <module name="module-middle-netty" target="8" />
       <module name="spring" target="1.8" />
       <module name="sql" target="8" />
     </bytecodeTargetLevel>

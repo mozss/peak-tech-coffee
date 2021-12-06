@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>module-netty</module>
-        <module>module-sql</module>
-        <module>module-jvm</module>
-        <module>module-design-pattern</module>
-        <module>module-juc</module>
+        <module>module-middle-netty</module>
+        <module>module-a-sql</module>
+        <module>module-a-jvm</module>
+        <module>module-a-design-pattern</module>
+        <module>module-a-juc</module>
     </modules>
 
     <properties>
