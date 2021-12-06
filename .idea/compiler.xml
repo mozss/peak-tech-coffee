@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="module-jvm" />
         <module name="module-juc" />
+        <module name="module-a-juc-pattern" />
         <module name="module-design-pattern" />
         <module name="module-sql" />
         <module name="module-netty" />
