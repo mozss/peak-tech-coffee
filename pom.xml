@@ -13,8 +13,8 @@
         <module>module-a-sql</module>
         <module>module-a-jvm</module>
         <module>module-a-design-pattern</module>
-        <module>module-a-juc</module>
-        <module>module-a-juc-pattern</module>
+        <module>module-a-thread</module>
+        <module>module-a-thread-pattern</module>
     </modules>
 
     <properties>
