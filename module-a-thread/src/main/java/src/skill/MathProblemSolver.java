@@ -1,4 +1,4 @@
-package skill;
+package src.skill;
 
 import java.math.BigInteger;
 
