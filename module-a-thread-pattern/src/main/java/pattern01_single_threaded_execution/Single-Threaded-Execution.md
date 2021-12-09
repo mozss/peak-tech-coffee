@@ -11,14 +11,14 @@
   
     - 银行的区块操作：即便有多个人登录你的账号，也只能排队依次按照顺序一个一个来取款。
 
-## 关联模式
+## 关联
 
 - Guarded Suspension
 - Read-Write Lock
 - Immutable
 - Thread-Specific Storage
 
-## 模式介绍
+## 介绍
 
 ### Single Threaded Execution模式是基础
 
@@ -52,7 +52,7 @@ Single Threaded Execution叫法侧重于“过桥的人”。
   - 之所以使用该模式，是因为ShareResource角色的状态会变化。在创建实例之后，实例的状态再也
 不变化就无需使用该模式。
 - 为了确保安全：Java的集合类大多数都是非线程安全的。这是为了在不需要考虑安全性的时候考虑程序的运行速度。
-![img.png](Java中线程安全的方法.png)
+![img.png](img/Java中线程安全的方法.png)
 
 ### 生存性与死锁
 
@@ -69,7 +69,7 @@ Single Threaded Execution叫法侧重于“过桥的人”。
 
 ### 可复用性和继承反常
 
-![img.png](可复用性和继承反常.png)
+![img.png](img/可复用性和继承反常.png)
 
 ### 临界区的大小和性能
 
