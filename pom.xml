@@ -11,10 +11,12 @@
     <modules>
         <module>module-middle-netty</module>
         <module>module-a-sql</module>
-        <module>module-a-jvm</module>
+        <module>module-a-java-jvm</module>
         <module>module-a-design-pattern</module>
-        <module>module-a-thread</module>
-        <module>module-a-thread-pattern</module>
+        <module>module-a-java-thread</module>
+        <module>module-a-java-thread-pattern</module>
+        <module>module-a-java-jmm</module>
+        <module>module-a-java-jmm</module>
     </modules>
 
     <properties>
